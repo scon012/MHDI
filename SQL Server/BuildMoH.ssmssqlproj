@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="BuildMoH">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="dbsqlserver\mimic:stephenc">
+          <Created>2018-06-14T16:07:04.3849183+12:00</Created>
+          <Type>SQL</Type>
+          <Server>dbsqlserver\mimic</Server>
+          <UserName>stephenc</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="DBSQLSERVER\MIMIC:SYSTEMS\StephenC">
+          <Created>2018-04-15T10:11:44.944743+12:00</Created>
+          <Type>SQL</Type>
+          <Server>DBSQLSERVER\MIMIC</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="dbsqlserver02\ds:stephenc">
+          <Created>2018-08-17T12:01:15.4702164+12:00</Created>
+          <Type>SQL</Type>
+          <Server>dbsqlserver02\ds</Server>
+          <UserName>stephenc</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>MoH</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="CreateAndPopulateAHCIBlocks.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dbsqlserver02\ds:False:stephenc</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dbsqlserver02\ds</AssociatedConnSrvName>
+          <AssociatedConnUserName>stephenc</AssociatedConnUserName>
+          <FullPath>CreateAndPopulateAHCIBlocks.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateAndPopulateAHCIChapters.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dbsqlserver02\ds:False:stephenc</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dbsqlserver02\ds</AssociatedConnSrvName>
+          <AssociatedConnUserName>stephenc</AssociatedConnUserName>
+          <FullPath>CreateAndPopulateAHCIChapters.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateAndPopulateAHCIProcedures.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dbsqlserver02\ds:False:stephenc</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dbsqlserver02\ds</AssociatedConnSrvName>
+          <AssociatedConnUserName>stephenc</AssociatedConnUserName>
+          <FullPath>CreateAndPopulateAHCIProcedures.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DistinctCombinations forASA.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dbsqlserver02\ds:False:stephenc</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dbsqlserver02\ds</AssociatedConnSrvName>
+          <AssociatedConnUserName>stephenc</AssociatedConnUserName>
+          <FullPath>DistinctCombinations forASA.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DistinctPatients.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dbsqlserver02\ds:False:stephenc</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dbsqlserver02\ds</AssociatedConnSrvName>
+          <AssociatedConnUserName>stephenc</AssociatedConnUserName>
+          <FullPath>DistinctPatients.sql</FullPath>
+        </FileNode>
+        <FileNode Name="EthnicityDistribution.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dbsqlserver02\ds:False:stephenc</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dbsqlserver02\ds</AssociatedConnSrvName>
+          <AssociatedConnUserName>stephenc</AssociatedConnUserName>
+          <FullPath>EthnicityDistribution.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HospitalisationPlus Creation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dbsqlserver02\ds:False:stephenc</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dbsqlserver02\ds</AssociatedConnSrvName>
+          <AssociatedConnUserName>stephenc</AssociatedConnUserName>
+          <FullPath>HospitalisationPlus Creation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HospitalisationPlus Subset01.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dbsqlserver02\ds:False:stephenc</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dbsqlserver02\ds</AssociatedConnSrvName>
+          <AssociatedConnUserName>stephenc</AssociatedConnUserName>
+          <FullPath>HospitalisationPlus Subset01.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HospitalisationPlus Subset02.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dbsqlserver02\ds:False:stephenc</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dbsqlserver02\ds</AssociatedConnSrvName>
+          <AssociatedConnUserName>stephenc</AssociatedConnUserName>
+          <FullPath>HospitalisationPlus Subset02.sql</FullPath>
+        </FileNode>
+        <FileNode Name="MoveTablesToDifferentFileGroup.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>MoveTablesToDifferentFileGroup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Row Counts.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Row Counts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sql_add_indexes 02.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sql_add_indexes 02.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sql_change_column_types 02.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sql_change_column_types 02.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sql_check_data 02.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sql_check_data 02.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sql_create_tables 02.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sql_create_tables 02.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sql_import_data 02.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sql_import_data 02.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

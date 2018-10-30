@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="BuildMIMIC">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="DBSQLSERVER\MIMIC:SYSTEMS\StephenC">
+          <Created>2018-04-15T10:11:44.944743+12:00</Created>
+          <Type>SQL</Type>
+          <Server>DBSQLSERVER\MIMIC</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="CreateAndPopulateAHCIBlocks.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>CreateAndPopulateAHCIBlocks.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateAndPopulateAHCIChapters.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>CreateAndPopulateAHCIChapters.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateAndPopulateAHCIProcedures.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>CreateAndPopulateAHCIProcedures.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sql_add_indexes 02.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sql_add_indexes 02.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sql_change_column_types 02.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sql_change_column_types 02.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sql_check_data 02.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sql_check_data 02.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sql_create_tables 02.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sql_create_tables 02.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sql_import_data 02.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sql_import_data 02.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
